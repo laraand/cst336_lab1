@@ -1,0 +1,61 @@
+body{
+    background-color:Turquoise;
+    color:Black;
+}
+header, main, nav, footer, #content{
+    text-align:center;
+}
+nav a {
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: White;
+}
+nav a:hover{
+    border-bottom:2px yellow solid;
+    font-size: 2em;
+    transition: .9s;
+}
+#me,#welcomeText{
+    float:left;
+    width:30%;
+}
+#me img{
+    padding-left: 140px;
+    width: 50%;
+}
+
+footer{
+    clear:both;
+}
+.imgeditor canvas {
+    transform: scale(1);
+    image-rendering: pixelated;
+}
+table {
+    margin: 0px auto;
+}
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+td strong {
+    color:White;
+}
+#table-header {
+    background-color: #D45C20;
+}
+.table-row {
+    background-color: #D45C20;
+}
+ul {
+    text-align: left;
+    padding-left: 200px;
+}
+.hobby{
+    color: yellow;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+}
